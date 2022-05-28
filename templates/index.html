@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Linking CSS style sheets so we know this is the style we want to apply -->
+        <link rel="stylesheet" href="/static/nav.css">
+        <link rel="stylesheet" href="/static/index.css">
+
+        <title>Indexer - {{ userInput }}</title>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a class="active" href="/">Home</a>
+            <a href="">About</a>
+            <a href="">Feedback</a>
+        </div>
+
+        {% for message in get_flashed_messages() %}
+            <div class="alert" id="alert-message">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                {{ message }}
+            </div>
+        {% endfor %}
+
+        <div class="searchDiv">
+            <h1><strong>
+                <span><span style="color:#4285F4">S</span><span style="color:#DB4437">e</span><span style="color:#F4B400">a</span><span style="color:#4285F4">r</span><span style="color:#0F9D58">c</span><span style="color:#DB4437">h</span></span>
+            </strong></h1>
+        </div>
+
+        <div class="searchBar">
+            <label>
+                <form autocomplete="off">
+                    <input class="searchBox" id="userInput" name="search_box" type="text" placeholder="Search">
+                </form>
+            </label>
+        </div>
+
+
+        <div id="data_wrapper">
+            {% block content %}
+
+                <h1 style="font-family: inherit"> {{user_input}} </h1>
+
+                {% for url in urls %}
+                    <a target="_blank"> {{url}} </a> <br></br>
+                {% endfor %}
+
+            {% endblock %}
+        </div>
+
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+
+
+    </script>
+
+</html>

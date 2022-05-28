@@ -1,0 +1,18 @@
+html {
+    background-color: whitesmoke;
+}
+
+.google-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.google-form > iframe{
+    background-color: white;
+    border: 2px solid black;
+    width: 850px;
+    height: 850px;
+}

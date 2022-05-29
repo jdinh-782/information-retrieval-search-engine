@@ -5,7 +5,7 @@ import ast
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'cs121searchengine7813'  # should be some random long string
+app.config['SECRET_KEY'] = ''  # should be some random long string
 
 stemmer = PorterStemmer()
 

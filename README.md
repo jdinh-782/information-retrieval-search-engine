@@ -2,7 +2,7 @@
 Web-based search engine capable of indexing 10,000+ documents and providing search results based on queries.
 
 ## Description
-This search engine was created using Python, alongside numerous libraries, to access a plethora of documents and their content. Large amounts of text is scraped and analyzed to pair keywords with documents. Word-document scoring techniques are utilized for optimizing and narrying down search results. An index is created to store a json dictionary of words and documents for later use with the search engine. The rest of the application is displayed in a [localhost](http://localhost:8000) page. 
+This search engine was created using Python, alongside numerous libraries, to access a plethora of documents and their content. Large amounts of text is scraped and analyzed to pair keywords with documents. Term/Document scoring techniques are utilized for optimizing and narrying down search results. An index is created to store a json dictionary of words and documents for later use with the search engine. The rest of the application is displayed in a [localhost](http://localhost:8000) page. 
 
 ## Getting Started
 ### Dependencies
@@ -38,6 +38,9 @@ Assuming all packages and dependencies are installed correctly, first create the
 
 ```python3 search.py```
 
+<br> Otherwise, you are able to run the application on the web with the following command:
+
+```python3 main.py```
 
 ## Help
 For any concerns, feel free to reach out by [email](jdinh782@gmail.com).

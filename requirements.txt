@@ -1,0 +1,11 @@
+###### Requirements without Version Specifiers ######
+json
+os
+time
+nltk
+nltk.stem
+math
+bs4
+collections
+ast
+flask

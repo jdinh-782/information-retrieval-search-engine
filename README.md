@@ -44,11 +44,9 @@ For any concerns, feel free to reach out by [email](jdinh782@gmail.com).
 
 ## Authors and Contributors
 [Johnson Dinh](https://www.linkedin.com/in/johnson-dinh/) <br>
-[Joey Siu]
-[Jocelyn Lam]
-[Sarah Khuu]
+Joey Siu <br>
+Jocelyn Lam <br>
+Sarah Khuu
 
 ## Acknowledgements
-
-
-
+[Mondego Group, UC Irvine](https://github.com/Mondego)

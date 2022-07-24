@@ -43,7 +43,7 @@ Assuming all packages and dependencies are installed correctly, first create the
 ```python3 main.py```
 
 ## Help
-For any concerns, feel free to reach out by [email](jdinh782@gmail.com).
+For any concerns, feel free to reach out by [email](mailto:dinhjd@uci.edu?subject=[GitHub]%20Source%20Han%20Sans).
 
 ## Authors and Contributors
 [Johnson Dinh](https://www.linkedin.com/in/johnson-dinh/) <br>
